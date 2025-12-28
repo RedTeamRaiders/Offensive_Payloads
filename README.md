@@ -1,0 +1,47 @@
+# Offensive-Pentesting-Host
+Penetration testing is the practice of launching authorized, simulated attacks against computer systems and their physical infrastructure to expose potential security weaknesses and vulnerabilities.
+
+Network Penetration Testing determines vulnerabilities in the network posture by discovering Open ports, Troubleshooting live systems, services and grabbing system banners.
+
+The pen-testing helps administrator to close unused ports, additional services, Hide or Customize banners, Troubleshooting services and to calibrate firewall rules.You should test in all ways to guarantee there is no security loophole
+Let’s see how we conduct a step by step Network penetration testing 
+
+## Following Steps we need to perform for Enumeration.
+
+- [Network Scanning](https://github.com/armourinfosec/Offensive-Pentesting--Host/blob/main/Network%20Scanning/README.md)
+  - [NMAP](https://github.com/armourinfosec/Offensive-Pentesting-Host/blob/main/Network%20Scanning/NMAP.md)
+  - [Naabu](https://github.com/armourinfosec/Offensive-Pentesting-Host/blob/main/Network%20Scanning/NAABU.md) 
+  - [Masscan](https://github.com/armourinfosec/Offensive-Pentesting-Host/blob/main/Network%20Scanning/MASSCAN.md)
+  - [NBTscan](https://github.com/armourinfosec/Offensive-Pentesting-Host/blob/main/Network%20Scanning/NBTscan.md)
+  - [Netdiscover](https://github.com/armourinfosec/Offensive-Pentesting-Host/blob/main/Network%20Scanning/Netdiscover.md)
+  - [Netcat](https://github.com/armourinfosec/Offensive-Pentesting-Host/blob/main/Network%20Scanning/Netcat.md)
+  - [Traceroute](https://github.com/armourinfosec/Offensive-Pentesting-Host/blob/main/Network%20Scanning/Traceroute.md)
+  - [Ping](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/Network%20Scanning/Ping#ping)
+  - [Fping](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/Network%20Scanning/Ping#fping)
+  - [arping](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/Network%20Scanning/Ping#arping)
+- [Vulnerability Assesment](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/Vulnerability%20Assesment)
+  - [Nessus](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/Vulnerability%20Assesment/Nessus.md)
+  - [Openvas](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/Vulnerability%20Assesment/Openvas.md)
+  - [Nuclei](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/Vulnerability%20Assesment/Nuclei.md)
+  - [Nexpose](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/Vulnerability%20Assesment/Nexpose.md)
+- [FTP Enumeration- Port-21](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/FTP)
+  - [TFTP Enumeration- UDP Port-69](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/FTP/TFTP)
+- [SSH Enumeration- Port-22](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/SSH)
+- [Telnet Enumeration- Port-23](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/Telnet)
+- [SMTP Enumeration- Port-25, 465 & 587](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/SMTP)
+  - [POP3 -Port 110 && 995](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/SMTP/POP3)
+  - [IMAP - Port-143 && 993](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/SMTP/IMAP)
+- [DNS Enumeration- TCP & UDP Port-53](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/DNS)
+- [Web Enumeration- Port-80 & 443](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/Web)
+  - [HTTP Method Enumeration](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/Web)
+  - [HTTP Basic Authentication](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/Web)
+  - [Shellshock Vulnerability](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/Web)
+- [NTP Enumeration- UDP Port-123](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/NTP)
+- [SMB Enumeration- Port-139 & 445](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/SMB)
+- [SNMP ENumeration- UDP Port-161 & 162](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/SNMP)
+- [LDAP Enumeration- Port-389 & 636](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/LDAP)
+- [MSSql Enumeration- Port-1433](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/MSSQL)
+- [NFS Enumeration- Port-2049](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/NFS)
+- [MySql Enumeration- Port-3306](https://github.com/armourinfosec/Offensive-Pentesting-Host/tree/main/MySql)
+- [Remote Desktop Enumeration- Port-3389](https://github.com/armourinfosec/Offensive-Pentesting--Host/tree/main/RDP)
+- [VNC Enumeration - Port-5900](https://github.com/armourinfosec/Offensive-Pentesting--Host/blob/main/VNC)
